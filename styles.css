@@ -1,0 +1,101 @@
+/* Ward Chemical CSS Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1a3c6d;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#hero {
+    background-color: #e6f2ff;
+    text-align: center;
+    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #1a3c6d;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #1a3c6d;
+}
+
+.product {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    color: #1a3c6d;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #1a3c6d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
